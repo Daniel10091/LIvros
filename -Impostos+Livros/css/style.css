@@ -1,3 +1,12 @@
+*::selection {background:#41d32e;color:#000000;}
+*::-moz-selection {background:#41d32e; color:#000000;}
+*::-o-selection {background:#41d32e; color:#000000;}
+*::-khtml-selection {background:#41d32e; color:#000000;}
+
+html {
+    cursor: url(../images/cursor.png), auto;
+  }
+
 *{
 	margin: 0;
 	padding: 0;
@@ -55,11 +64,15 @@ body{
     color: #ffffff;
     background-color: #000000;
 	outline: 0!important;
+	border: 2px solid #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 255, 13, 0.5);
+	cursor: url(../images/text.png), auto;
 }
 
 .search input:hover{
 	color: #000000;
 	background-color: #ffffff;
+	border: 2px solid #000000;
 	box-sizing: border-box;
 }
 
@@ -70,13 +83,18 @@ body{
 	color: #fefffe;
     text-shadow: #1fca2b 0px 2px 4px;
     background-color: rgb(0, 0, 0);
+	border: 2px solid #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 255, 13, 0.5);
 }
 
 .search button:hover{
 	color: #000000;
     text-shadow: rgb(54, 202, 9) 0px 2px 2px;
+	border: 2px solid #000000;
 	background-color: #ffffff;
 	outline: 0!important;
+	cursor:pointer;
+	cursor: url(../images/touch.png), auto;
 }
 
 #menu{
@@ -96,6 +114,7 @@ body{
 	text-shadow: #ffffff 0px 2px 4px;
 	font-weight: 600;
 	letter-spacing: 1px;
+	cursor: url(../images/touch.png), auto;
 }
 
 #menu a:hover, a:active{
@@ -134,6 +153,7 @@ body{
 
 a{
 	color: #34dd1e;
+	cursor: url(../images/click.png), auto;
 }
 
 #image1{
